@@ -1,0 +1,21 @@
+{"kind": "attr_file", "version": "tir/0.1"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": "# | Name | City |"}
+{"kind": "plain", "line": "#   | ---- | ---- | "}
+{"kind": "plain", "line": "        # | Alice <br> Tokyo |  "}
+{"kind": "plain", "line": "        #           | Bob | Osaka |"}
+{"kind": "plain", "line": "    # | Carol | Nagoya |"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "grid", "prefix": "", "row": ["名前", "Age", "City"]}
+{"kind": "grid", "row": ["Alice", "23 \n Tokyo"]}
+{"kind": "plain", "line": " Bob | 31 | 大阪 |"}
+{"kind": "grid", "prefix": "", "row": ["Carol", "27", "Nagoya"]}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": ""}
+{"kind": "plain", "line": "    # | Key | Description | Example |"}
+{"kind": "plain", "line": "    # | `id` | **Primary key** | `user_001` "}
+{"kind": "plain", "line": "    # | name |"}
+{"kind": "plain", "line": "    # | note | Free <BR> text | `a \\| b \\| c` |"}
+{"kind": "plain", "line": "    # "}
+{"kind": "plain", "line": "    # | name |"}
+{"kind": "plain", "line": "    # "}

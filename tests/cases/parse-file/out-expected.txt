@@ -1,0 +1,69 @@
+
+--- CASE 7: cursor = line 1 plain ---
+{"kind": "attr_file", "version": "tir/0.1"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "grid", "prefix": "# ", "row": ["Name", "City"]}
+{"kind": "grid", "row": ["----", "----"]}
+{"kind": "grid", "row": ["Alice \n Tokyo"]}
+{"kind": "grid", "row": ["Bob", "Osaka"]}
+{"kind": "grid", "row": ["Carol", "Nagoya"]}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": "| 名前 | Age | City |"}
+{"kind": "plain", "line": "| Alice | 23 <br> Tokyo |"}
+{"kind": "plain", "line": " Bob | 31 | 大阪 |"}
+{"kind": "plain", "line": "| Carol | 27 | Nagoya |"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": ""}
+{"kind": "grid", "prefix": "    # ", "row": ["Key", "Description", "Example"]}
+{"kind": "plain", "line": "    # | `id` | **Primary key** | `user_001` "}
+{"kind": "grid", "prefix": "    # ", "row": ["name"]}
+{"kind": "grid", "row": ["note", "Free \n text", "`a | b | c`"]}
+{"kind": "plain", "line": "    # "}
+{"kind": "grid", "prefix": "    # ", "row": ["name"]}
+{"kind": "plain", "line": "    # "}
+
+--- CASE 10: cursor = line 11 bottom of gird ---
+{"kind": "attr_file", "version": "tir/0.1"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": "# | Name | City |"}
+{"kind": "plain", "line": "#   | ---- | ---- | "}
+{"kind": "plain", "line": "        # | Alice <br> Tokyo |  "}
+{"kind": "plain", "line": "        #           | Bob | Osaka |"}
+{"kind": "plain", "line": "    # | Carol | Nagoya |"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "grid", "prefix": "", "row": ["名前", "Age", "City"]}
+{"kind": "grid", "row": ["Alice", "23 \n Tokyo"]}
+{"kind": "plain", "line": " Bob | 31 | 大阪 |"}
+{"kind": "grid", "prefix": "", "row": ["Carol", "27", "Nagoya"]}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": ""}
+{"kind": "plain", "line": "    # | Key | Description | Example |"}
+{"kind": "plain", "line": "    # | `id` | **Primary key** | `user_001` "}
+{"kind": "plain", "line": "    # | name |"}
+{"kind": "plain", "line": "    # | note | Free <BR> text | `a \\| b \\| c` |"}
+{"kind": "plain", "line": "    # "}
+{"kind": "plain", "line": "    # | name |"}
+{"kind": "plain", "line": "    # "}
+
+--- CASE 13: cursor = line 12 plain ---
+{"kind": "attr_file", "version": "tir/0.1"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "grid", "prefix": "# ", "row": ["Name", "City"]}
+{"kind": "grid", "row": ["----", "----"]}
+{"kind": "grid", "row": ["Alice \n Tokyo"]}
+{"kind": "grid", "row": ["Bob", "Osaka"]}
+{"kind": "grid", "row": ["Carol", "Nagoya"]}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": "| 名前 | Age | City |"}
+{"kind": "plain", "line": "| Alice | 23 <br> Tokyo |"}
+{"kind": "plain", "line": " Bob | 31 | 大阪 |"}
+{"kind": "plain", "line": "| Carol | 27 | Nagoya |"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": ""}
+{"kind": "grid", "prefix": "    # ", "row": ["Key", "Description", "Example"]}
+{"kind": "plain", "line": "    # | `id` | **Primary key** | `user_001` "}
+{"kind": "grid", "prefix": "    # ", "row": ["name"]}
+{"kind": "grid", "row": ["note", "Free \n text", "`a | b | c`"]}
+{"kind": "plain", "line": "    # "}
+{"kind": "grid", "prefix": "    # ", "row": ["name"]}
+{"kind": "plain", "line": "    # "}

@@ -1,0 +1,21 @@
+{"kind": "attr_file", "version": "tir/0.1"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "grid", "prefix": "# ", "row": ["Name", "City"]}
+{"kind": "grid", "row": ["----", "----"]}
+{"kind": "grid", "row": ["Alice \n Tokyo"]}
+{"kind": "grid", "row": ["Bob", "Osaka"]}
+{"kind": "grid", "row": ["Carol", "Nagoya"]}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": "| 名前 | Age | City |"}
+{"kind": "plain", "line": "| Alice | 23 <br> Tokyo |"}
+{"kind": "plain", "line": " Bob | 31 | 大阪 |"}
+{"kind": "plain", "line": "| Carol | 27 | Nagoya |"}
+{"kind": "plain", "line": "----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0"}
+{"kind": "plain", "line": ""}
+{"kind": "grid", "prefix": "    # ", "row": ["Key", "Description", "Example"]}
+{"kind": "plain", "line": "    # | `id` | **Primary key** | `user_001` "}
+{"kind": "grid", "prefix": "    # ", "row": ["name"]}
+{"kind": "grid", "row": ["note", "Free \n text", "`a | b | c`"]}
+{"kind": "plain", "line": "    # "}
+{"kind": "grid", "prefix": "    # ", "row": ["name"]}
+{"kind": "plain", "line": "    # "}

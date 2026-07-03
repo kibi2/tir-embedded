@@ -1,0 +1,8 @@
+
+--- CASE 7: cursor = line 1 plain ---
+{"kind": "attr_file", "version": "tir/0.1"}
+{"kind": "plain", "line": "gfm"}
+{"kind": "plain", "line": "markdown"}
+
+--- CASE 10: empty ---
+{"kind": "attr_file", "version": "tir/0.1"}

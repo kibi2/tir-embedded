@@ -1,0 +1,15 @@
+
+--- CASE 7: help ---
+unknown sub command: help
+tir-embedded 0.0.post1.dev1
+
+usage:
+  tir-embedded parse    cursor [file|-]
+  tir-embedded unparse         [file|-]
+  tir-embedded --version
+
+Options:
+
+If file is omitted or '-', parse reads from stdin.
+If file is omitted or '-', unparse writes to stdout.
+
