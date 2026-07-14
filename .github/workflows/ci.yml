@@ -41,6 +41,16 @@ jobs:
           chmod +x tests/run.sh
           tests/run.sh
 
+      - name: Upload test artifacts (on failure)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-artifacts-${{ matrix.python-version }}
+          path: |
+            tests/cases/**/diff-*.txt
+            tests/stdout.txt
+            tests/stderr.txt
+
       - name: Build package
         run: |
           pip install build
