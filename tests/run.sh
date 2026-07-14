@@ -35,16 +35,16 @@ if [ -n "${NO_COLOR:-}" ] || [ -n "${GITHUB_ACTIONS:-}" ]; then
   WHITE=""
 fi
 
-NVIM_BIN="${NVIM_BIN:-nvim}"
-echo "Running with: $NVIM_BIN"
-printf "${BOLD}${GREEN}%s${RESET}\n" "$($NVIM_BIN --version | head -n 1)"
+# NVIM_BIN="${NVIM_BIN:-nvim}"
+# echo "Running with: $NVIM_BIN"
+# printf "${BOLD}${GREEN}%s${RESET}\n" "$($NVIM_BIN --version | head -n 1)"
 
 SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 ROOT_DIR=$(cd "$SCRIPT_DIR/.." && pwd)
 CASES_DIR="$SCRIPT_DIR/cases"
 STATS="luacov.stats.out"
 
-eval "$(luarocks path)"
+# eval "$(luarocks path)"
 # : >  "$ROOT_DIR/$STATS"
 
 UPDATE=0
@@ -119,10 +119,10 @@ while IFS= read -r -d '' d; do
     #if [ ! -e "./$STATS" ]; then
       #ln -s "$ROOT_DIR/$STATS" "./$STATS"
     #fi
-      NVIM_TIRENVI_DEV=1 $NVIM_BIN --headless -u NONE -n \
-        -c "source run.vim" \
-        -c "qa!" \
-        > stdout.txt 2> stderr.txt
+      #NVIM_TIRENVI_DEV=1 $NVIM_BIN --headless -u NONE -n \
+        #-c "source run.vim" \
+        #-c "qa!" \
+        #> stdout.txt 2> stderr.txt
     if [ -f run.sh ]; then
       sh run.sh > stdout.txt 2> stderr.txt
     fi
