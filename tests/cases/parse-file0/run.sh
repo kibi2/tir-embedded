@@ -2,10 +2,10 @@
 set -eu
 exec > out-actual.txt 2>&1
 
-source $ROOT_DIR/tests/common.sh
+. $ROOT_DIR/tests/common.sh
 
-CASE $LINENO cursor = line 1 plain
+CASE 7 cursor = line 1 plain
     tir_parser parse 1 "$ROOT_DIR/tests/data/table0.txt"
 
-CASE $LINENO empty
+CASE 10 empty
     tir_parser parse 1 "$ROOT_DIR/tests/data/empty.txt"

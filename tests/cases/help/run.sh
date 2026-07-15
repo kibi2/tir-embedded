@@ -2,7 +2,7 @@
 set -u
 exec > out-actual.txt 2>&1
 
-source $ROOT_DIR/tests/common.sh
+. $ROOT_DIR/tests/common.sh
 
-CASE $LINENO help
+CASE 7 help
     tir_parser help

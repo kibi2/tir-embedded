@@ -2,7 +2,7 @@
 set -eu
 exec > out-actual.txt 2>&1
 
-source $ROOT_DIR/tests/common.sh
+. $ROOT_DIR/tests/common.sh
 
-CASE $LINENO stdin
+CASE 7 stdin
     tir_parser parse 1 < "$ROOT_DIR/tests/data/table.txt"
