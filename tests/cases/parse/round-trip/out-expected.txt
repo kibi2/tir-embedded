@@ -1,11 +1,11 @@
 
 --- CASE 7: cursor = line 1 plain ---
 ----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0
-# | Name | City |
-# | ---- | ---- |
-# | Alice <br> Tokyo |
-# | Bob | Osaka |
-# | Carol | Nagoya |
+// | Name | City |
+// | ---- | ---- |
+// | Alice <br> Tokyo |
+// | Bob | Osaka |
+// | Carol | Nagoya |
 ----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0
 | 名前 | Age | City |
 | Alice | 23 <br> Tokyo |
@@ -13,21 +13,25 @@
 | Carol | 27 | Nagoya |
 ----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0
 
-    # | Key | Description | Example |
-    # | `id` | **Primary key** | `user_001` 
-    # | name |
-    # | note | Free <br> text | `a \| b \| c` |
-    # 
-    # | name |
-    # 
+    // | Key | Description | Example |
+    // | `id` | **Primary key** | `user_001` 
+    // | name |
+    // | note | Free <br> text | `a \| b \| c` |
+    // 
+    // | name |
+    // 
+	| 名前 | Age | City |
+  | Alice | 23 <br> Tokyo |
+| Bob | 31 | 大阪 |
+			| Carol | 27 | Nagoya |
 
 --- CASE 10: cursor = line 11 bottom of gird ---
 ----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0
-# | Name | City |
-#   | ---- | ---- | 
-        # | Alice <br> Tokyo |  
-        #           | Bob | Osaka |
-    # | Carol | Nagoya |
+// | Name | City |
+//   | ---- | ---- | 
+        // | Alice <br> Tokyo |  
+        //           | Bob | Osaka |
+    // | Carol | Nagoya |
 ----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0
 | 名前 | Age | City |
 | Alice | 23 <br> Tokyo |
@@ -35,10 +39,14 @@
 | Carol | 27 | Nagoya |
 ----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0
 
-    # | Key | Description | Example |
-    # | `id` | **Primary key** | `user_001` 
-    # | name |
-    # | note | Free <BR> text | `a \| b \| c` |
-    # 
-    # | name |
-    # 
+    // | Key | Description | Example |
+    // | `id` | **Primary key** | `user_001` 
+    // | name |
+    // | note | Free <BR> text | `a \| b \| c` |
+    // 
+    // | name |
+    // 
+	| 名前 | Age | City |
+	| Alice | 23 <br> Tokyo |
+	| Bob | 31 | 大阪 |
+	| Carol | 27 | Nagoya |

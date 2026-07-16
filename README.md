@@ -11,11 +11,13 @@ pip install tir-embedded
 ## Usage
 
 ```bash
-tir-embedded parse <cursor-line> file > file.tir
+tir-embedded parse file --cursor-line=<n> > file.tir
 tir-embedded unparse file < file.tir
 ```
 
-`<cursor-line>` specifies the current cursor line (1-based).
+`<n>` specifies the current cursor line (1-based).
+
+--cursor-line is intended for editors such as tirenvi. Other backends ignore this option.
 
 The parser uses this line to determine which embedded table to parse and which table prefix (`key`) to use.
 
